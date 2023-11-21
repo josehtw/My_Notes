@@ -5,3 +5,4 @@ exiftool image.jpg
 exiftool -artist="NewAutor"
 exiftool -author= "Newautor"
 exiftool -all= image.jpg //delete al de properties
+exiftool document.pdf -autor -product
