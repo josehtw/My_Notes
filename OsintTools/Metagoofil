@@ -1,0 +1,8 @@
+Metagoofil -> command-line tool used for extracting metadata from public documents
+------------------------------------------------------------------------------------------------------------------------------
+# clone the repo
+$ git clone https://github.com/laramies/metagoofil.git
+# change de working directory to metagoofil
+$ cd /Download/metagoofil
+# Execute de command metagoofil.py with python2
+$ python2 metagoofil.py -d domain -t pdf,doc,docx,odt -l 50 -n 50 -f resultados.html -o resultados
