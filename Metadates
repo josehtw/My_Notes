@@ -1,13 +1,13 @@
--------------------------------------------------------------------------------------
-Exiftool
--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+Exiftool -> Command-line tool used to read, write, and edit metadata information in files.
+-------------------------------------------------------------------------------------------
 exiftool image.jpg
 exiftool -artist="NewAutor"
 exiftool -author= "Newautor"
 exiftool -all= image.jpg //delete al de properties
--------------------------------------------------------------------------------------
-Sherlock
--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+Sherlock -> Used for finding social media accounts by a username
+-------------------------------------------------------------------------------------------
 # clone the repo
 $ git clone https://github.com/sherlock-project/sherlock.git
 # change the working directory to sherlock
@@ -15,10 +15,10 @@ $ cd sherlock
 # install the requirements
 $ python3 -m pip install -r requirements.txt
 $python3 sherlock user123 -nsfw -->optional
--------------------------------------------------------------------------------------
-Metagoofil
--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+Metagoofil -> command-line tool used for extracting metadata from public documents
+-------------------------------------------------------------------------------------------
 $ git clone https://github.com/laramies/metagoofil.git
 $ cd /Descargas/metagoofil
 $ python2 metagoofil.py -d domain -t pdf,doc,docx,odt -l 50 -n 50 -f resultados.html -o resultados
--------------------------------------------------------------------------------------    
+-------------------------------------------------------------------------------------------    
