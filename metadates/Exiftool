@@ -1,1 +1,7 @@
-
+------------------------------------------------------------------------------------------------------------------------------
+Exiftool -> Command-line tool used to read, write, and edit metadata information in files.
+------------------------------------------------------------------------------------------------------------------------------
+exiftool image.jpg
+exiftool -artist="NewAutor"
+exiftool -author= "Newautor"
+exiftool -all= image.jpg //delete al de properties
