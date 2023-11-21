@@ -1,0 +1,6 @@
+Dorks -> refers to advanced search queries that are used to find specific information that may not be easily accessible through conventional searches
+------------------------------------------------------------------------------------------------------------------------------
+filetype:pdf site:example.com
+intitle:"Index of" inurl:backup
+inurl:login.php
+ext:doc OR ext:pdf site:gov
