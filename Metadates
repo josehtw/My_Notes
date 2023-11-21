@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------------
+Exiftool
+-------------------------------------------------------------------------------------
+exiftool image.jpg
+exiftool -artist="NewAutor"
+exiftool -author= "Newautor"
+exiftool -all= image.jpg //delete al de properties
+-------------------------------------------------------------------------------------
+Sherlock
+-------------------------------------------------------------------------------------
+# clone the repo
+$ git clone https://github.com/sherlock-project/sherlock.git
+# change the working directory to sherlock
+$ cd sherlock
+# install the requirements
+$ python3 -m pip install -r requirements.txt
+$python3 sherlock user123 -nsfw -->optional
+-------------------------------------------------------------------------------------
+Metagoofil
+-------------------------------------------------------------------------------------
+$ git clone https://github.com/laramies/metagoofil.git
+$ cd /Descargas/metagoofil
+$ python2 metagoofil.py -d domain -t pdf,doc,docx,odt -l 50 -n 50 -f resultados.html -o resultados
+-------------------------------------------------------------------------------------    
