@@ -1,4 +1,4 @@
-##Para analizar páginas web que estén creadas con wordpress podemos realizar estos dos comandos:
+## Para analizar páginas web que estén creadas con wordpress podemos realizar estos dos comandos:
 
 wpscan –url http://ip
 
